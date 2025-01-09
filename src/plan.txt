@@ -1,0 +1,22 @@
+build a first component which presents me
+Let it have the image and the best ui for containing image too
+let it have Bio , Testimonials , Contact(Reach me) , Email, whatsapp
+all the above having links to dive directly into inbox
+smooth anomations to the next slide below
+
+
+second component
+list all compentencies and tools i use.
+let the ui be representive for each know-how.
+
+
+third component
+present projects on which i've worked
+let them be well designed cards built as seperate components.
+add back animations upon hover
+cool colors and animations and smooth transitions too
+
+forth component
+Talk about companies for which i've worked
+that will be only ourPraise
+add hobies here too

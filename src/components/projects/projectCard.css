@@ -1,0 +1,16 @@
+.mainProjectCard img {
+  width: 15rem;
+}
+.mainProjectCard {
+  width: 20rem;
+  text-align: center;
+  font-family: Poppins;
+  border-radius: 2rem;
+}
+.projectTitle {
+  color: #d6bd98;
+  padding: 10px;
+}
+.projectDescription {
+  color: #d6bd98;
+}

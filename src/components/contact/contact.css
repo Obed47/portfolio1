@@ -1,0 +1,103 @@
+.namesSection {
+  display: flex;
+}
+.mainContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 40rem;
+}
+.namesSection input {
+  width: 16rem;
+  height: 1rem;
+  padding: 2rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.781);
+  background-color: rgba(255, 255, 255, 0.199);
+  border: none;
+}
+.emailBox,
+.phoneBox {
+  width: 90%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.199);
+  border: none;
+  padding: 1rem;
+}
+
+.messageBox {
+  width: 90%;
+  height: 10rem;
+  background-color: rgba(255, 255, 255, 0.199);
+  margin-top: 1rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+button {
+  width: 95%;
+  height: 4rem;
+  font-weight: 600;
+  color: #1a3636;
+  margin: auto;
+  border: none;
+  background-color: #d6bd98;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+}
+.leftContact {
+  border: 2px solid rgba(245, 222, 179, 0.507);
+  height: 90%;
+  width: 40%;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactImage {
+  height: 100%;
+  margin: auto;
+  opacity: 0.9;
+  padding: auto;
+  align-self: center;
+}
+.ContactTitle {
+  color: #d6bd98;
+  font-size: 30px;
+  font-family: "Rubik Vinyl";
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.horizontalLine {
+  width: 20%;
+  margin: auto;
+}
+input ::placeholder {
+  color: white;
+}
+@media (max-width: 768px) {
+  .mainContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 89rem;
+  }
+  .emailBox,
+  .phoneBox,
+  .messageBox {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+  }
+}

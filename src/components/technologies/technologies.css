@@ -1,0 +1,21 @@
+.mainTechs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.techTitle {
+  font-family: Poppins;
+  text-align: center;
+  padding: 2rem;
+  font-size: 33px;
+  font-family: "Rubik Vinyl";
+  color: #d6bd98;
+}
+@media (max-width: 768px){
+    .mainTechs{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

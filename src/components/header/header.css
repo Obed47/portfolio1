@@ -1,0 +1,63 @@
+.mainHeader {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Poppins;
+  color: #d6bd98;
+  border-bottom: 2px solid #d6bd9896;
+  opacity: 0.9;
+}
+.mainHeader .links ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 3rem;
+  padding: 3.5rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+.title {
+  padding: 3rem;
+  font-size: x-large;
+  font-family: "Rubik Vinyl", serif;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.mainHeader .links ul li {
+  font-size: large;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  user-select: none;
+}
+.mainHeader .links ul li span {
+  font-size: xx-large;
+}
+.mainHeader .links ul li:hover {
+  background-color: #d6bd98;
+  color: #1a3636;
+  transition: 800ms;
+}
+.title :hover {
+  color: #d6bd98;
+  transition: 2s;
+  opacity: 1;
+}
+.hamburger{
+    display: none;
+}
+.hamburger p{
+    font-size: 30px;
+}
+@media (max-width: 768px) {
+  .mainHeader .links {
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+}

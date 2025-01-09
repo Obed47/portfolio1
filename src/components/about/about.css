@@ -1,0 +1,80 @@
+.mainAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: Poppins;
+}
+
+.leftAbout {
+  width: 30%;
+  height: 30rem;
+  border: 2px solid #d6bd98;
+  border-radius: 2rem;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  border: 2px solid #d6bd98;
+  height: 25rem;
+  opacity: 0.5;
+}
+.rightAbout {
+  width: 50%;
+}
+.aboutTitle {
+  color: #d6bd98;
+  font-family: "Rubik Vinyl";
+  opacity: 0.8;
+}
+
+.aboutText {
+  font-size: 18px;
+  padding-top: 2rem;
+  color: #d6bd98a9;
+}
+hr {
+  margin-top: 10px;
+  border-color: #d6bd98;
+  opacity: 0.8;
+}
+.cvButton {
+  width: 12rem;
+  height: 3rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  color: #d6bd98;
+  transition: 300ms;
+  background-color: #1a3636;
+  box-shadow: 1px 1px 2px #d6bd98;
+  border: 1px solid #d6bd98;
+
+
+}
+.cvButton:hover{
+    box-shadow: 1px 1px 2px #d6bd98;
+    background-color: #d6bd98;
+    color: #1a3636;
+
+}
+.aboutImage {
+  width: 26rem;
+  margin: auto;
+}
+@media (max-width: 768px){
+    .mainAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    hr{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+}

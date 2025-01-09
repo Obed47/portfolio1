@@ -1,0 +1,28 @@
+.mainProjects {
+  font-family: Poppins;
+  background-color: #1a3636;
+}
+.projectsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgba(250, 235, 215, 0.212);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.mainTitle {
+  text-align: center;
+  color: #d6bd98;
+  padding: 3rem;
+  font-family: "Rubik Vinyl";
+  font-size: 40px;
+  opacity: 0.8;
+}
+@media (max-width: 768px){
+    .projectsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
