@@ -9,7 +9,7 @@ import figmaIcon from "../../assets/figma-icon.svg";
 export default function Technologies() {
   return (
     <div data-aos="flip-up">
-      <h2 className="techTitle">Working Tools</h2>
+      <h2 className="techTitle">Dev Tools</h2>
       <div className="mainTechs">
         <TechnologyCard
           techImage={reactLogo}
