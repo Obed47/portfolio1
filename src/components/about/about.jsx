@@ -1,7 +1,12 @@
 import React from "react";
 import "./about.css";
+import { saveAs } from "file-saver";
 import aboutImage from "../../assets/happy.png";
 export default function About() {
+  const handleDownload = () => {
+    const cvUrl = "../../assets/cv.pdf";
+    saveAs(cvUrl, "Wirngo_Obed.pdf");
+  };
   return (
     <div data-aos="fade-up" className="mainAbout">
       <div className="leftAbout">
@@ -20,7 +25,9 @@ export default function About() {
           iure repudiandae tempora reiciendis suscipit harum exercitationem hic,
           commodi unde eius vero. Porro?
         </p>
-        <button className="cvButton">Download CV</button>
+        <button className="cvButton" onClick={handleDownload}>
+          Download CV
+        </button>
       </div>
     </div>
   );

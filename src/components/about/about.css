@@ -52,29 +52,26 @@ hr {
   background-color: #1a3636;
   box-shadow: 1px 1px 2px #d6bd98;
   border: 1px solid #d6bd98;
-
-
 }
-.cvButton:hover{
-    box-shadow: 1px 1px 2px #d6bd98;
-    background-color: #d6bd98;
-    color: #1a3636;
-
+.cvButton:hover {
+  box-shadow: 1px 1px 2px #d6bd98;
+  background-color: #d6bd98;
+  color: #1a3636;
 }
 .aboutImage {
   width: 26rem;
   margin: auto;
 }
-@media (max-width: 768px){
-    .mainAbout{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    hr{
-        display: none;
-    }
-    .line{
-        display: none;
-    }
+@media (max-width: 768px) {
+  .mainAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  hr {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
 }

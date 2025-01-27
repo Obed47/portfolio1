@@ -60,17 +60,17 @@
 .animation {
   padding-top: 2rem;
 }
-@media (max-width: 768px){
-    .mainBody{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 60rem;
-    }
-    .right{
-        display: none;
-    }
-    .animation{
-        height: 9rem;
-    }
+@media (max-width: 768px) {
+  .mainBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60rem;
+  }
+  .right {
+    display: none;
+  }
+  .animation {
+    height: 9rem;
+  }
 }

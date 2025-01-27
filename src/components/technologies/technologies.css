@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  transition: 500ms;
 }
 .techTitle {
   font-family: Poppins;
@@ -12,10 +13,10 @@
   font-family: "Rubik Vinyl";
   color: #d6bd98;
 }
-@media (max-width: 768px){
-    .mainTechs{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
+@media (max-width: 768px) {
+  .mainTechs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }

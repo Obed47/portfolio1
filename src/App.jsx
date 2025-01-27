@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 import "./App.css";
 function App() {
   useEffect(() => {
-    AOS.init({ easing: "ease-out-cubic", duration: 600 });
+    AOS.init({ easing: "ease-out-cubic", duration: 650 });
     AOS.refresh();
   }, []);
   return (

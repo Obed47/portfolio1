@@ -24,6 +24,10 @@
   opacity: 0.5;
   cursor: pointer;
 }
+.title h1 {
+  padding-left: 100px;
+}
+
 .mainHeader .links ul li {
   font-size: large;
   display: flex;
@@ -47,17 +51,17 @@
   transition: 2s;
   opacity: 1;
 }
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
-.hamburger p{
-    font-size: 30px;
+.hamburger p {
+  font-size: 30px;
 }
 @media (max-width: 768px) {
   .mainHeader .links {
     display: none;
   }
-  .hamburger{
+  .hamburger {
     display: block;
   }
 }

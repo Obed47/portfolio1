@@ -1,10 +1,17 @@
 import React from "react";
 import "./header.css";
+import avatarImage from "../../assets/avatar.png";
 export default function Header() {
   return (
     <div className="mainHeader">
       <div className="title">
-        <h1>Portfolio</h1>
+        <h1>
+          {" "}
+          <span>
+            <img src={avatarImage} alt="avatar" />
+          </span>
+          Portfolio
+        </h1>
       </div>
       <div className="links">
         <ul>
